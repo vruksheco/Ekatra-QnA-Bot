@@ -7,11 +7,11 @@ table = base('QnA Bot')
 // Create a new record when user starts the conversation with the bot
 const createRecord = async (chat_id, name) => {
 
-  const students = await table.select({
+  const records = await table.select({
     filterByFormula: `ChatID = ${chat_id}`,
     view: "Grid view"
   }).all();
-  var len = students.length;
+  var len = records.length;
   // console.log(len)
 
   if (len == 0) {
@@ -26,7 +26,6 @@ const createRecord = async (chat_id, name) => {
     ], function (err, records) {
       if (err) {
         console.error(err);
-        reject(err);
       }
 
 
