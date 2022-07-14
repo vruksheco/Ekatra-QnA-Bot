@@ -2,9 +2,12 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-    <a href="https://www.npmjs.com/package/openai" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/openai.svg">
+    <a href="https://www.npmjs.com/package/openai" target="_blank">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
   </a>
   </a>
 </p>
@@ -54,8 +57,9 @@ After getting all the API keys. Follow these steps:
 
 1. Git clone or download this repository
   ```sh
-  git clone 
-  cd 
+  git clone https://github.com/vruksheco/Ekatra-QnA-Bot.git 
+
+  cd Ekatra-QnA-Bot
   ```
 2. Install all dependencies
 ```sh
@@ -97,7 +101,7 @@ Reference:
 1. [GPT-3 Chatbot with Python by John Mannelly](https://jman4190.medium.com/how-to-build-a-gpt-3-chatbot-with-python-7b83e55805e6)
 ---
 ## Contributions
-If you have any suggestion on how to improve the code send me PR request or faced any issues feel free to [contact me].
+If you have any suggestion on how to improve the code create a [PR request](https://github.com/vruksheco/Ekatra-QnA-Bot/pulls) or faced any issues feel free to [contact me](https://github.com/vruksheco/Ekatra-QnA-Bot/issues).
 
 
 ---
