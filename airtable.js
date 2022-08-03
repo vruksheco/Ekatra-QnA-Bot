@@ -12,7 +12,6 @@ const createRecord = async (chat_id, name) => {
     view: "Grid view"
   }).all();
   var len = records.length;
-  // console.log(len)
 
   if (len == 0) {
 
